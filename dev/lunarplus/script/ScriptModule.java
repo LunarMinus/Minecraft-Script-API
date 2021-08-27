@@ -1,38 +1,5 @@
 package lunar.plus.script;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.function.Function;
-
-import javax.script.Invocable;
-import javax.script.ScriptContext;
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
-import javax.script.SimpleScriptContext;
-
-import org.jetbrains.annotations.NotNull;
-import org.lwjgl.input.Keyboard;
-
-import lunar.plus.Client;
-import lunar.plus.events.Event;
-import lunar.plus.events.listeners.EventAtack;
-import lunar.plus.events.listeners.EventBow;
-import lunar.plus.events.listeners.EventChat;
-import lunar.plus.events.listeners.EventDamage;
-import lunar.plus.events.listeners.EventJump;
-import lunar.plus.events.listeners.EventKey;
-import lunar.plus.events.listeners.EventMotion;
-import lunar.plus.events.listeners.EventPacket;
-import lunar.plus.events.listeners.EventRender2D;
-import lunar.plus.events.listeners.EventRender3D;
-import lunar.plus.events.listeners.EventShutDown;
-import lunar.plus.events.listeners.EventStrafe;
-import lunar.plus.events.listeners.EventUpdate;
-import lunar.plus.modules.Module;
-import lunar.plus.modules.Module.Category;
-import net.minecraft.client.Minecraft;
-
 public class ScriptModule extends Module {
 	
 	public ScriptEngine engine = new ScriptEngineManager().getEngineByName("nashorn");
