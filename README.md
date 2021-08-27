@@ -9,3 +9,5 @@ What is it used for? Like liquidbounce's script api so you can make custom modul
 
 If you can make it better plz do I made this in about 2 hours bcs I don't really know anyhting about nashorn or whatever
 so yea just copy files
+
+ALSO I know its really bad code so don't say anything about that.
