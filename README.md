@@ -1,5 +1,6 @@
 # Minecraft-Script-API
-hhhhhhhhhhhhhhhhhhhhhhhh-aaaaaaaaaaaaaaaaaaaaaa \n
+hhhhhhhhhhhhhhhhhhhhhhhh-aaaaaaaaaaaaaaaaaaaaaa
+
 A Minecraft script api thing
 (It uses nashorn and idk if you need to download the libraries)
 What is it used for? Like liquidbounce's script api so you can make custom modules and bypasses.
